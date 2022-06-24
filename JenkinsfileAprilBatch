@@ -1,4 +1,4 @@
-@Library('sharedlibsmmt') _
+//@Library('sharedlibsmmt') _
 
 
 node('nodes'){
@@ -88,6 +88,6 @@ def sendSlackNotifications(String buildStatus = 'STARTED') {
   // Send notifications
   slackSend (color: colorCode, message: summary, channel: 'walmart')
 }
-*/
+
 
 
