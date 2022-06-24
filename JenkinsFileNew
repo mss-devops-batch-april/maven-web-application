@@ -35,7 +35,8 @@ properties([buildDiscarder(logRotator(artifactDaysToKeepStr: '', artifactNumToKe
         }
   }
 */
-}catch(e){
+} 
+catch(e){
 currentBuild.result = "FAILED"
     throw e
 }
