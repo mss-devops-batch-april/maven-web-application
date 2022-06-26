@@ -40,7 +40,7 @@ sh "mvn clean package"
 //Execute SonarQube Report
 stage('ExecuteSonarQubeReport'){
 steps{
-sh "mvn sonar:sonar"
+sh "mvn sonar:sonar "
 }
 }
 
